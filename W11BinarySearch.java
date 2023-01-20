@@ -1,4 +1,4 @@
-public class W1C2BinarySearch {
+public class W11BinarySearch {
     public static int search(String key, String[] a) {
         return search(key, a, 0, a.length);
     }
@@ -15,6 +15,7 @@ public class W1C2BinarySearch {
         else
             return mid;
     }
+
     public static void main(String[] args) {
         In in = new In(args[0]);
         String[] words = in.readAllStrings();
