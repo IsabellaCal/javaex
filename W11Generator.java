@@ -1,4 +1,4 @@
-public class W1C2Generator {
+public class W11Generator {
     // genera stringhe casuali mettendo come argomento il numero di stringe la lunghezza e l'alfabeto
     public static String randomString(int L, String alpha) {
         char[] a = new char[L];
